@@ -1,1 +1,1 @@
-# personal-website
+JavaScript exercise n.1
