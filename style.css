@@ -78,6 +78,8 @@ a {
     height: 60vh;
     width: 100%;
     display: flex;
+    background: no-repeat fixed;
+    background-size: cover;
     justify-content: center;
     align-items: center;
 }
@@ -100,4 +102,32 @@ a {
 .card-text {
     position: absolute;
     padding-top: 10px;
+}
+
+footer{
+    background-color: #eeeeee;
+}
+
+@media (max-width: 768px) {
+
+    .header, .button {
+        font-size: 12px;
+    }
+
+    .hero {
+        flex-wrap: wrap;
+    }
+    
+    .hero-text, .hero-img {
+        width: 100%;
+    }
+
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .col-25, .col-33, .col-50 {
+        width: 100%;
+    }
 }
