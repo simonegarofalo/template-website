@@ -1,47 +1,49 @@
-# Descrizione del file HTML
+# HTML File Description
 
-Questo file HTML rappresenta una semplice struttura di una pagina web contenente diverse sezioni di uso comune. Di seguito sono descritti i vari componenti e le sezioni che la compongono.
+This HTML file represents a simple structure of a webpage containing various commonly used sections. Below are described the various components and sections.
 
-## Corpo del documento
+## Body
 
 ### Navbar
 
-La barra di navigazione contiene:
-- Un logo
-- Un menu di navigazione con voci 
-- Un pulsante "Contact us"
+The navigation bar contains:
+- A logo
+- A navigation menu
+- A "Contact us" button
 
-### Sezione Hero
+### Hero Section
 
-La sezione hero include:
-- Un titolo principale
-- Un paragrafo descrittivo.
-- Un pulsante "Scopri di più"
-- Un'immagine di sfondo
+The hero section includes:
+- A main title
+- A descriptive paragraph
+- A "Discover more" button
+- A image section
 
-### Griglia a Due Colonne
+### Two-Column Grid
 
-Questa sezione utilizza una griglia a due colonne per visualizzare due blocchi di contenuto con titoli.
+This section uses a two-column grid to display two blocks of content with titles.
 
-### Sezione Cover
+### Cover Section
 
-La sezione cover contiene:
-- Un titolo
-- Un paragrafo descrittivo
-- Un pulsante "Discover more"
+The cover section contains:
+- A title
+- A descriptive paragraph
+- A "Discover more" button
 
-### Griglia a Tre Colonne con Carte
+### Three-Column Grid with Cards
 
-Questa sezione utilizza una griglia a tre colonne per visualizzare tre carte, ognuna contenente:
-- Un'immagine
-- Un testo descrittivo
+This section uses a three-column grid to display three cards, each containing:
+- An image
+- A descriptive text of each of the product cards
 
 ### Footer
 
-Il footer contiene:
-- Un logo e un breve paragrafo descrittivo
-- Due colonne aggiuntive con titoli "Contact" e "Legal", ciascuna contenente liste vuote per futuri collegamenti
+The footer contains:
+- A logo and a brief descriptive paragraph
+- Two additional columns with titles "Contact" and "Legal", each containing empty lists for future links
 
-## Conclusioni
 
-Questo file HTML rappresenta una struttura di base per una pagina web con sezioni comuni come navbar, sezione hero, griglie di contenuto, cover e footer. È progettato per essere customizzato e reso funzionale attraverso CSS e JavaScript esterni.
+## Conclusion
+
+This HTML file represents a basic structure for a webpage with common sections like navbar, hero section, content grids, cover, and footer. It is designed to be styled and made functional through external CSS and JavaScript.
+
