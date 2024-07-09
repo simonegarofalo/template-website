@@ -3,9 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Template-website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!-- This is a navbar -->
+    <header class="header">
+        <img class="logo" src="logo.jpg" alt="Logo">
+        <nav class="menu">
+            <ul>
+                <li>About</li>
+                <li>Services</li>
+                <li>Blog</li>
+            </ul>
+        </nav>
+        <button class="button">Contact us</button>
+    </header>
+
+    <!-- This is a hero section -->
+    <div class="hero">
+        <div class="hero-text">
+            <h1>This is a website</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium vero delectus ea, autem suscipit soluta commodi quam optio debitis totam iure repellendus quisquam, similique, aperiam perferendis dolorum eos assumenda quo!</p>
+            <button class="button_2">Scopri di più</button>     
+        </div>
+        <div class="hero-img">
+            <img src="hero.jpg" alt="Hero-image">
+        </div>
+    </div>
+
+    <!-- This is a two-column grid created with flexbox -->
+    <div class="grid">
+        <div class="col-50">
+            <h3>This is the first column</h3>
+        </div>
+        <div class="col-50">
+            <h3>This is the second column</h3>
+        </div>
+    </div>
+
+    <!-- This is a cover that contains some text -->
+    <div class="cover">
+        <div class="cover-text">
+            <h3>This is a cover</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quisquam natus facere non, nihil quod cupiditate ea, fugiat praesentium labore, velit minus ut sit tenetur eaque et repudiandae officiis. Delectus.</p>
+            <button class="button_2">Discover more</button>     
+        </div>
+    </div>
+
+    <!-- These are three cards that contain a link -->
+    <div class="grid">
+        <div class="col-33">
+            <a href="" class="card">
+                <img src="card-1.jpg" alt="" class="img-card">
+                <div class="card-text">This is the first card</div>
+            </a>
+        </div>
+        <div class="col-33">
+            <a href="" class="card">
+                <img src="card-2.jpg" alt="" class="img-card">
+                <div class="card-text">This is the second card</div>
+            </a>
+        </div>
+        <div class="col-33">
+            <a href="" class="card">
+                <img src="card-3.jpg" alt="" class="img-card">
+                <div class="card-text">This is the third card</div>
+            </a>
+        </div>
+    </div>
+
+    <!-- This is a footer -->
+    <footer class="footer">
+        <div class="grid">
+            <div class="col-50">
+                <img class="logo" src="logo.jpg" alt="Logo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem cum illum sequi labore illo, nulla consequuntur aut dignissimos corporis.</p>
+            </div>
+            <div class="col-25">
+                <h4>Contact</h4>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="col-25">
+                <h4>Legal</h4>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
