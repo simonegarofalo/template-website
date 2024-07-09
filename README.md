@@ -16,7 +16,7 @@ The navigation bar contains:
 The hero section includes:
 - A main title
 - A descriptive paragraph
-- A "Discover more" button
+- A "Read more" button
 - A image section
 
 ### Two-Column Grid
